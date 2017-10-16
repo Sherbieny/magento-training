@@ -1,0 +1,58 @@
+<config>
+    <global>
+        <models>
+            <demo>
+                <class>Sherbo_Demo_Model</class>
+            </demo>
+        </models>
+
+        <blocks>
+            <demo>
+                <class>Sherbo_Demo_Block</class>
+            </demo>
+        </blocks>
+
+        <helpers>
+            <demo>
+                <class>Sherbo_Demo_Helper</class>
+            </demo>
+        </helpers>
+        <events>
+            <customer_login>
+                <observers>
+                    <demo>
+                        <type>model</type>
+                        <class>demo/observer</class>                        
+                        <method>logCustomer</method>
+                    </demo>
+                </observers>
+            </customer_login>
+        </events>
+    </global>
+
+    <frontend>
+        <routers>
+            <sherbo_demo>
+                <use>standard</use>
+                <args>
+                    <module>Sherbo_Demo</module>
+                    <frontName>demo</frontName>
+                </args>
+            </sherbo_demo>
+            <catalog>
+                <args>
+                    <modules>
+                        <demo before="Mage_Catalog">Sherbo_Demo</demo>
+                    </modules>
+                </args>
+            </catalog>
+        </routers>
+        <layout>
+            <updates>
+                <demo>
+                    <file>sherbo.xml</file>
+                </demo>
+            </updates>
+        </layout>
+    </frontend>
+</config>

@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Sherbo_Helloworld>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Sherbo_Helloworld>
+    </modules>
+</config>

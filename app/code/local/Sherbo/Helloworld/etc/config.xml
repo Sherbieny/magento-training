@@ -1,0 +1,18 @@
+<config>
+    <modules>
+        <Sherbo_Helloworld>
+            <version>0.1.0</version>
+        </Sherbo_Helloworld>
+    </modules>
+    <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Sherbo_Helloworld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+    </frontend>
+</config>

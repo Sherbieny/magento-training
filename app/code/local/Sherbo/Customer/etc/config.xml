@@ -1,0 +1,11 @@
+<config>
+    <global>
+        <helpers>
+            <customer>
+                <rewrite>
+                    <data>Sherbo_Customer_Helper_Data</data>
+                </rewrite>                
+            </customer>
+        </helpers>
+    </global>
+</config>

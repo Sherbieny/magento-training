@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Sherbo_Configviewer>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Sherbo_Configviewer>
+    </modules>
+</config>
