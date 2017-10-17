@@ -14,5 +14,29 @@
                 </args>
             </helloworld>
         </routers>
+        <layout>
+            <updates>
+                <helloworld>
+                    <file>helloworld.xml</file>
+                </helloworld>
+            </updates>
+        </layout>
     </frontend>
+    <global>
+        <blocks>
+            <helloworld>
+                <class>Sherbo_Helloworld_Block</class>
+            </helloworld>
+        </blocks>
+        <helpers>
+            <helloworld>
+                <class>Shero_Helloworld_Helper</class>
+            </helloworld>
+        </helpers>
+        <models>
+            <helloworld>
+                <class>Sherbo_Helloworld_Model</class>
+            </helloworld>
+        </models>
+    </global>
 </config>

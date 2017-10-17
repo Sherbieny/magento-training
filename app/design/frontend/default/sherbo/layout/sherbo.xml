@@ -1,7 +1,0 @@
-<layout>
-    <sherbo_demo_index_sayhello>
-        <reference name="content">
-            <block type="demo/configurable" name="demo" template="sherbo/configurable.phtml" />
-        </reference>
-    </sherbo_demo_index_sayhello>
-</layout>

@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="960e1d3f-24d8-4737-b41b-a3427adcc699" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Block/Adminhtml/System/Config/Form/Field/Button.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Helper/Data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Model/Discount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Model/Resource/Discount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Model/Resource/Setup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/SherboController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/adminhtml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/system.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Block/Newproducts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Helper/Data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Catalog/Product.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Resource/Subscription.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Resource/Subscription/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Subscription.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/controllers/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/etc/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/sql/hellobez_setup/install-0.1.0.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/sql/hellobez_setup/upgrade-0.1.0-0.2.0.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/Helper/Data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/layout/hellobez.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/hellobez/newproducts.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Sherbo_Customapp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/modules/Sherbo_Hellobez.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/locale/en_US/Sherbo_Hellobez.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/layout/local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/simple_page.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/design/frontend/default/sherbo/layout/sherbo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/design/frontend/default/sherbo/template/sherbo/configurable.phtml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/etc/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Zend/Controller/Front.php" afterPath="$PROJECT_DIR$/lib/Zend/Controller/Front.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/system.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2790">
+              <caret line="90" column="9" lean-forward="false" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Helper/Data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Discount.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Model/Discount.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="19" column="76" lean-forward="false" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Setup.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Model/Resource/Setup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Discount.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Model/Resource/Discount.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminhtml.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/adminhtml.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SherboController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/SherboController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Block/Adminhtml/System/Config/Form/Field/Button.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getName</find>
+      <find>Helloworld</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Hellobez</replace>
+    </replaceStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="ls" />
+      <command text="cd /var/www/html/magento/app/code/local/Sherbo/Hellobez" />
+      <command text="ls" />
+      <command text="mkdir Model; mkdir etc; mkdir Helper; mkdir controllers; mkdir sql; mkdir Block;" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/sherbo/helloworld/layout/helloworld.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/etc/modules/Sherbo_Hellobez.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/sherbo/hellobez/layout/hellobez.xml" />
+        <option value="$PROJECT_DIR$/app/locale/en_US/Sherbo_Hellobez.csv" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/hellobez.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Product.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Block/Newproducts.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/hellobez/newproducts.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Catalog/Product.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/sql/hellobez_setup/install-0.1.0.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/sql/hellobez_setup/upgrade-0.1.0-0.1.1.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/sql/hellobez_setup/upgrade-0.1.0-0.2.0.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Subscription.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Resource/Subscription.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Resource/Subscription/Collection.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/etc/modules/Sherbo_Customapp.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/system.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Modal/Discount.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Modal/Resource/Setup.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Modal/Resource/Discount.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/adminhtml.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/SherboController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Block/Adminhtml/System/Config/Form/Field/Button.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1907" />
+    <option name="y" value="353" />
+    <option name="width" value="1637" />
+    <option name="height" value="1025" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="System" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="System" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="System" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Adminhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="System" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Field" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="etc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="magento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magento" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sherbo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Customapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resource" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="catalog/product/view.phtml&#9;FILE&#9;file:///var/www/html/magento/app/design/frontend/base/default/template/catalog/product/view.phtml&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Catalog" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/base/default/layout" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/rwd/default/layout" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="960e1d3f-24d8-4737-b41b-a3427adcc699" name="Default" comment="" />
+      <created>1508134917438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508134917438</updated>
+      <workItem from="1508134921171" duration="1117000" />
+      <workItem from="1508136057540" duration="1547000" />
+      <workItem from="1508141936998" duration="417000" />
+      <workItem from="1508142355142" duration="77000" />
+      <workItem from="1508142449406" duration="7600000" />
+      <workItem from="1508155158121" duration="15641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26399000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1963" y="-3" width="1637" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21258399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/hellobez.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <marker date="1508174850046" expanded="true" signature="433:457" ph="SELECT * FRO... core_store" />
+            <marker date="1508174850046" expanded="true" signature="875:902" ph="SELECT * FRO... review_detail" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/Sherbo_Hellobez.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Collection/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Collection/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Collection/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Collection/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Collection/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Collection/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Collection/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/locale/en_US/Sherbo_Hellobez.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/hellobez.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Block/Newproducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/hellobez/newproducts.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Catalog/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/sql/hellobez_setup/install-0.1.0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/sql/hellobez_setup/upgrade-0.1.0-0.2.0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Subscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Resource/Subscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/Model/Resource/Subscription/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+          <folding>
+            <marker date="1508174850046" expanded="true" signature="433:457" ph="SELECT * FRO... core_store" />
+            <marker date="1508174850046" expanded="true" signature="875:902" ph="SELECT * FRO... review_detail" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Model/Discount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Hellobez/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Sherbo_Hellobez.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/modules/Sherbo_Customapp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Model/Discount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="19" column="76" lean-forward="false" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Model/Resource/Setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Model/Resource/Discount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/adminhtml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/SherboController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Block/Adminhtml/System/Config/Form/Field/Button.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/system.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="90" column="9" lean-forward="false" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

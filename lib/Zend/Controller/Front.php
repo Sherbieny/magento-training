@@ -74,7 +74,7 @@ class Zend_Controller_Front
     protected $_invokeParams = array();
 
     /**
-     * Subdirectory within a module containing controllers; defaults to 'controllers'
+     * Subdirectory within a module containing controllers defaults to 'controllers'
      * @var string
      */
     protected $_moduleControllerDirectoryName = 'controllers';
