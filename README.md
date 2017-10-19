@@ -5,8 +5,6 @@ Magento custom module for a price discount admin panel and a daily cron job
 ### Enviroment
   > Ubuntu 16.04
 
-  > LAMP
-
   > PHPStorm
 
 
