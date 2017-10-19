@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960e1d3f-24d8-4737-b41b-a3427adcc699" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sherbo/system/config/button.phtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/SherboController.php" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Block/Adminhtml/System/Config/Form/Field/Button.php" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Block/Adminhtml/System/Config/Form/Field/Button.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/system.xml" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/system.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sherbo/system/config/button.phtml" afterPath="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sherbo/system/config/button.phtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,37 +37,28 @@
       <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="87" column="33" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+            <state relative-caret-position="1054">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="2252">
+              <caret line="148" column="26" lean-forward="false" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="system.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/var/log/system.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="45">
-              <caret line="787" column="0" lean-forward="true" selection-start-line="787" selection-start-column="0" selection-end-line="794" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="button.phtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="button.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/sherbo/system/config/button.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="434">
+              <caret line="14" column="74" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -84,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Block/Adminhtml/System/Config/Form/Field/Button.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
-              <caret line="32" column="72" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+              <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -116,11 +100,19 @@
       <find>Helloworld</find>
       <find>$sItem</find>
       <find>$Item</find>
+      <find>$enable</find>
+      <find>enable</find>
+      <find>$orderedProductsIDs</find>
+      <find>echo</find>
     </findStrings>
     <replaceStrings>
       <replace>Hellobez</replace>
       <replace>$Item</replace>
       <replace>$item</replace>
+      <replace>$disable</replace>
+      <replace>disable</replace>
+      <replace>$orderedProductsIds</replace>
+      <replace>$logString .=</replace>
     </replaceStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -171,10 +163,12 @@
         <option value="$PROJECT_DIR$/js/customapp/script.js" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/local.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/IndexController.php" />
         <option value="$PROJECT_DIR$/var/log/system.log" />
         <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Block/Adminhtml/System/Config/Form/Field/Button.php" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/sherbo/system/config/button.phtml" />
+        <option value="$PROJECT_DIR$/var/log/test.html" />
+        <option value="$PROJECT_DIR$/var/log/customapp.log" />
+        <option value="$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/IndexController.php" />
       </list>
     </option>
   </component>
@@ -196,10 +190,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="y" value="3" />
-    <option name="width" value="1863" />
-    <option name="height" value="1077" />
+    <option name="x" value="1724" />
+    <option name="y" value="358" />
+    <option name="width" value="1637" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -444,22 +438,23 @@
       <workItem from="1508141936998" duration="417000" />
       <workItem from="1508142355142" duration="77000" />
       <workItem from="1508142449406" duration="7600000" />
-      <workItem from="1508155158121" duration="60654000" />
+      <workItem from="1508155158121" duration="73187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71412000" />
+    <option name="totallyTimeSpent" value="83945000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="3" width="1863" height="1077" extended-state="6" />
+    <frame x="1963" y="-3" width="1637" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18679549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21258399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24984728" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -471,7 +466,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -486,29 +480,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Helloworld/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/locale/en_US/Sherbo_Hellobez.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/hellobez.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -856,41 +827,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/var/log/system.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="45">
-          <caret line="787" column="0" lean-forward="true" selection-start-line="787" selection-start-column="0" selection-end-line="794" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="87" column="33" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/Block/Adminhtml/System/Config/Form/Field/Button.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="32" column="72" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/sherbo/system/config/button.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="434">
+          <caret line="14" column="74" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/log/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/log/system.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="31">
+          <caret line="815" column="6" lean-forward="false" selection-start-line="815" selection-start-column="6" selection-end-line="819" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/log/exception.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="355">
+          <caret line="384" column="0" lean-forward="false" selection-start-line="384" selection-start-column="0" selection-end-line="395" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/log/customapp.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-9427">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="89" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Sherbo/Customapp/controllers/Adminhtml/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2252">
+          <caret line="148" column="26" lean-forward="false" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
           <folding />
         </state>
       </provider>

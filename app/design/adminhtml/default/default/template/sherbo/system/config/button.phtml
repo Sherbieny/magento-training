@@ -1,12 +1,18 @@
 <script type="text/javascript">
     function check(){
-        var field = document.getElementById("customapp_messages_sherbo_time").value;
-        var form = document.getElementById("config_edit_form");
+//        var field = document.getElementById("customapp_messages_sherbo_time").value;
+//        alert(field);
 
+        var time = $("customapp_messages_sherbo_time").getValue();
+        var discount = $("customapp_messages_sherbo_message").getValue();
+        var disable = $("customapp_messages_sherbo_select").getValue();
+        //alert(disable);
+
+        var form = document.getElementById("config_edit_form");
+     //   alert('<?php echo $this->getAjaxCheckUrl() ?>');
         new Ajax.Request('<?php echo $this->getAjaxCheckUrl() ?>', {
             method: 'POST',
-            dataType: 'json',
-            data: JSON.stringify(form),
+            parameters: {time : time, discount: discount, disable: disable},
             onSuccess: function(transport){
                 var response = JSON.parse(transport.responseText);
                 if (response.error == 1) {
@@ -14,7 +20,7 @@
                     console.log(response);
                     return false;
                 } else {
-                    alert('looza');
+                    alert('Request Sent');
                     console.log(response);
                 }
             },
