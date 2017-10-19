@@ -46,6 +46,17 @@
             </customapp>
         </blocks>
     </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Sherbo_Customapp after="Mage_Adminhtml">Sherbo_Customapp_Adminhtml</Sherbo_Customapp>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
     <adminhtml>
         <acl>
             <resources>
