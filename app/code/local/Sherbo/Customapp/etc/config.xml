@@ -45,6 +45,17 @@
                 <class>Sherbo_Customapp_Block</class>
             </customapp>
         </blocks>
+        <events>
+            <product_discount_cron><!-- observe the event -->
+                <observers>
+                    <customapp>
+                        <type>singelton</type>
+                        <class>customapp/observer</class>
+                        <method>execute</method>
+                    </customapp>
+                </observers>
+            </product_discount_cron>
+        </events>
     </global>
     <admin>
         <routers>
@@ -78,4 +89,12 @@
             </resources>
         </acl>
     </adminhtml>
+    <crontab>
+        <jobs>
+            <Sherbo_customapp>
+                <schedule><cron_expr>0 1 * * *</cron_expr></schedule>
+                <run><model>customapp/observer::execute</model></run>
+            </Sherbo_customapp>
+        </jobs>
+    </crontab>
 </config>

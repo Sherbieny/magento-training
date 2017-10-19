@@ -1,15 +1,11 @@
 <script type="text/javascript">
     function check(){
-//        var field = document.getElementById("customapp_messages_sherbo_time").value;
-//        alert(field);
 
         var time = $("customapp_messages_sherbo_time").getValue();
         var discount = $("customapp_messages_sherbo_message").getValue();
         var disable = $("customapp_messages_sherbo_select").getValue();
         //alert(disable);
-
-        var form = document.getElementById("config_edit_form");
-     //   alert('<?php echo $this->getAjaxCheckUrl() ?>');
+        //alert('<?php echo $this->getAjaxCheckUrl() ?>');
         new Ajax.Request('<?php echo $this->getAjaxCheckUrl() ?>', {
             method: 'POST',
             parameters: {time : time, discount: discount, disable: disable},
