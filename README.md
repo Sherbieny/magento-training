@@ -13,6 +13,7 @@ Magento custom module for a price discount admin panel and a daily cron job
 $ copy Sherbo folder to app/code/local
 $ copy Sherbo_Customapp.xml to app/etc/modules
 $ copy button.phtml to app/design/adminhtml/default/default/template/sherbo/system/config
+$ change variable $recent_date value to the desired current datetime in file Adminhtml/IndexController.php and in file Observer.php
 ```
 ### Features
 * ##### Automatic Price Discounts admin panel:
